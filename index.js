@@ -3,7 +3,7 @@ const app=express()
 const mailing=require('./mail/mail.js')
 const cors=require('cors')
 const corsOptions = {
-  origin: 'https://codeharborhub.github.io', // Allow requests from this origin
+  origin: 'https://counsellor.social', // Allow requests from this origin
   methods: ['GET', 'POST'], // Allow only GET and POST requests
     allowedHeaders: ['Content-Type'], // Allow only headers with Content-Type
     optionsSuccessStatus: 200
